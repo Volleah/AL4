@@ -42,6 +42,7 @@ public class PacmanSceneReader {
 			objects.add(PacmanObjectFactory.spawnPlayer(location));
 		else if (c == '+')
 			objects.add(PacmanObjectFactory.spawnBonusDot(location));
+
 		
 	};
 
